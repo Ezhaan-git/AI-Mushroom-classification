@@ -1,4 +1,5 @@
-# **Uncovering the Hidden Treasures of the Mushroom Kingdom: A Classification Analysis**
+# **Project Title**
+- Uncovering the Hidden Treasures of the Mushroom Kingdom: A Classification Analysis.
 
 ## **Project Description**
 - This project focuses on the classification of different types of mushrooms found in various regions of the world. The classification is based on images of mushrooms, and the goal is to use deep learning techniques for accurate species recognition.
@@ -8,13 +9,13 @@
 
 ### Home Page:
 <p align="center">
- <img src="https://drive.google.com/uc?export=view&id=1yBSh7zuDdUp8OQcxDxwxwZCf2UYlkPQO" width="800" height="auto" alt="Your Image Description">
+ <img src="https://drive.google.com/file/d/1MCNhXq1y2ouOVBzni4Om7ZhlVjQM0pcJ/view?usp=drive_link" width="800" height="auto" alt="Your Image Description">
 
 </p>
 
 ### Mushroom Classification Result:
 <p align="center">
- <img src="https://drive.google.com/uc?export=view&id=1gQ9ZSEXVydIrZwm0XUdYouLbkYFCJnGp" width="800" height="auto" alt="Classification Results Display">
+ <img src="https://drive.google.com/file/d/15DVc5rvyI6gl5ZIWWTc9ugP8p0Smbwy1/view?usp=drive_link" width="800" height="auto" alt="Classification Results Display">
 </p>
 
 ## **Installation and Setup**
@@ -28,14 +29,13 @@ conda create -n mushroom_classifier python=3.10.16
 # Activate the environment
 conda activate mushroom_classifier
 
-# Clone the repository
-git clone https://github.com/Rohitmh09/AI-Mushroom-Classification-Analysis.git
-cd AI-Mushroom-Classification-Analysis-master
-
 # Install dependencies
 pip install -r requirements.txt
-```
 
+# Clone the repository
+git clone https://github.com/Ezhaan-git/AI-Mushroom-classification
+cd AI-Mushroom-Classification-Analysis-main
+```
 ### Using Python venv
 
 ```bash
@@ -57,6 +57,8 @@ pip install -r requirements.txt
 ```bash
 # Navigate to the Flask directory
 cd Flask
+conda install flask
+conda install tensorflow
 
 # Start the web application
 python app.py
@@ -109,5 +111,4 @@ The dataset is organized in the Dataset folder with separate test and train dire
 - Integrate geographical data to enhance classification accuracy
 
 ## **Conclusion**
-The mushroom classification project utilizes deep learning and transfer learning techniques to build an accurate and efficient classification system. By leveraging pre-trained models and a comprehensive mushroom dataset, we aim to contribute to the field of mushroom recognition and promote the understanding of mushroom species diversity in different regions.
-
+The mushroom classification project employs deep learning and transfer learning approaches to develop an accurate and efficient classification system. By utilizing pre-trained models alongside a comprehensive mushroom dataset, this work seeks to advance mushroom recognition efforts and enhance the understanding of species diversity across various regions.
